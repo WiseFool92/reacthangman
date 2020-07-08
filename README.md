@@ -82,15 +82,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Behavior Driven Development Spec List
 
-#### Tap Room
+#### Hangman
 
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
-| The user can view a list of avalible drinks | 'Home Page' | 'http://localhost:3000/' |
-| The user can add a drink to the list | 'Click add tap & fill our form' | 'Tap is added to the list' |
-| The user can view a taps details | 'Click on a tap' | 'Tap Details Page' |
-| The taps decrement pints when a drink is sold. (can't be reduced below zero) | 'Click Sell Pint' | '1 pint decrements from tap' |
-| The user can edit tap details & refill taps | 'Click on the tap & Edit the tap form' | 'Refreshed Tap' |
+| The user clicks a button for a guess | 'Guess' | 'If guess is correct the choice will populate where an _ was' |
+| The user can see how many guess's they have remaining | 'Guess' | 'Displays the number of wrong guess's remaining' |
+| The program displays a win or loss message | 'Guess' | 'You Win or You Lose' |
+| The program has a reset button | 'Click to reset' | 'starts game over' |
 
 ---
 
