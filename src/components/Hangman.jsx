@@ -36,13 +36,14 @@ class Hangman extends Component {
 
   // NEED TO REFACTOR SO BLANK SPACES DO NOT GET UNDERSCORES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   guessedWord() {
+    // if (this.state.guessed.includes(" ") ? letter: " ");
     return this.state.answer.split("").map(letter => (this.state.guessed.has(letter) ? letter : " _ "));
   }
 
   // REFACTOR WIH REGEX IN RETURN TO COVER ALL BASES CLEANER
   // Style Buttons
   generateButtons() {
-    return "abcdefghijklomnopqrstuvwxyz0123456789".split("").map(letter => (
+    return "abcdefghijklomnopqrstuvwxyz0123456789 ".split("").map(letter => (
       <button
         class="btn btn-info"
         id="buttonContainer"
