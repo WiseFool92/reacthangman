@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-image: url('./img/western.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ImgLocation {
+  margin: .5rem;
+  padding: .5rem;
+  /* float: left; */
+}
+
+#buttonContainer:hover {
+  color: #0d3017;
+  margin: .1rem;
+}
+
+#buttonContainer {
+  transition: all .5s linear;
+  margin: .2rem;
+}
+
+h1, p, h4 {
+  color: white;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.692);
+}
+
+.wrong {
+  color: #ff9b28;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.692);
+}
