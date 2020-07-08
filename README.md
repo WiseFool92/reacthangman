@@ -195,6 +195,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 This project is licensed under the MIT License
 
-Copyright (c) 2020 **_Nathan Watkins-Hoagland_**
+Copyright (c) 2020 **_Nathan Watkins-Hoagland & Sean VanLeeuwen,_**
 
 ---
